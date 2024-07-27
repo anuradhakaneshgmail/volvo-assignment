@@ -1,21 +1,20 @@
-<h1>volvo assignment</h1>
+Volvo assignment
 
-<h2>This project contain framework for volvo cars safety feature. 
+This project contain framework for volvo cars safety feature. 
     Project has PageObject model and cucumber framework. 
     Project can be executed locally and with docker container.
     Project have allure report serving reporting purpose.
- </h2>
-<p>To install modules run -</p><br>
-<code>npm install</code><br>
 
 
-<p>To run from local run -</p><br>
-<code>npm run wdio</code><br>
+To install modules run -
+npm install
 
-<p>To run from docker with selenium grid, run docker yaml file and bring container up -</p>
-<code>docker-compose -f ./docker/docker-compose-hub.yml up</code>
-<code>npm run wdio:docker</code>
+To run from local run -
+npm run wdio
 
+To run from docker with selenium grid, run docker yaml file and bring container up -
+docker-compose -f ./docker/docker-compose-hub.yml up
+npm run wdio:docker
 
-<p>To get allure report run -</p><br>
-<code>npx allure serve</code><br>
+To get allure report run -
+npx allure serve
